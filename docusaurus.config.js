@@ -30,7 +30,6 @@ const config = {
   organizationName: 'mashranbytes', // Usually your GitHub org/user name.
   projectName: 'mashranbytes.github.io', // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
