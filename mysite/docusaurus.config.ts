@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://mashranbytes.com',
+  url: 'https://mashranbytes.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -27,6 +27,8 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
 
+  deploymentBranch: 'deployment',
+  trailingSlash: false,
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -75,7 +77,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Mashranbytes',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -109,7 +111,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/docs1/intro',
             },
           ],
         },
